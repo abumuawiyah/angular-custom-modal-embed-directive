@@ -43,11 +43,8 @@ link: function(scope, iElement, iAttrs){
 </code></pre>
 
 ######modal content directive
-
 Tightly coupled with modal container
-
 <pre><code>
 require: '^anbootModalDialog'
 </code></pre>
-
 By doing this we be able to get the container scope especially important props like state & instance
