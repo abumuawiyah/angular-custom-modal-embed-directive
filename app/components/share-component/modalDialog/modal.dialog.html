@@ -1,0 +1,14 @@
+<div class='ng-modal default' 
+     ng-show='vm.state === "visible"' 
+     data-directive="anbootModalDialog"
+     ng-styles="(vm.styles)">
+  <div class='ng-modal-overlay' ng-click='vm.hideModal()'></div>
+  <div class='ng-modal-dialog'>
+    <div class="modal-content">
+        <div class="modal-body" 
+             data-container="modalBody"
+             instance="{{vm.instance}}">
+        </div>
+    </div>
+  </div>
+</div>
